@@ -9,6 +9,7 @@ plugins:
   - jekyll-feed
 
 author:
+  name: "John Sabath"
   avatar: "/assets/images/bio.jpg"
   bio: >
     Cloud Engineering | Web Development
