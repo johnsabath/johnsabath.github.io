@@ -9,9 +9,9 @@ plugins:
   - jekyll-feed
 
 author:
-  name: "John Sabath"
   avatar: "/assets/images/bio.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
+  bio: >
+    Cloud Engineering | Web Development
   email: me@johnsabath.com
   github: johnsabath
   linkedin: johnsabath
