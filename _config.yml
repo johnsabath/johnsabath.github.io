@@ -1,0 +1,38 @@
+title: John Sabath
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://johnsabath.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+
+author:
+  name: "John Sabath"
+  avatar: "/assets/images/bio.jpg"
+  bio: "My awesome biography constrained to a sentence or two goes here."
+  email: me@johnsabath.com
+  github: johnsabath
+  linkedin: johnsabath
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      author_profile: true
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
